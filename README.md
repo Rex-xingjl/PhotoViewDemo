@@ -56,4 +56,8 @@ And if find some issues, please give me a notice.
 
 ![preview](preview.gif "preview")
 
+![screenshot-0](screenshot-0.png "screenshot")
+
+![screenshot-1](screenshot-1.png "screenshot")
+
 
