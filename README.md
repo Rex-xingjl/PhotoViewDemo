@@ -1,13 +1,13 @@
 # PhotoViewDemo
 A custom Album to show Images and thumbnails can be net image or local image.
 
-###Why use the Album
+### Why use the Album
 
 If you need an album to show image groups and they need to show like a time line, then you can try this Album.
 It's easy to use with the way of delegate. Block may hard to control the data you get from network with complicated structure. 
 And if find some issues, please give me a notice.
 
-###How to use the Album 
+### How to use the Album 
 
 1. add delegate
 
@@ -52,7 +52,7 @@ And if find some issues, please give me a notice.
 
 ```
 
-###Previews
+### Previews
 
 ![screenshot-0](screenshot-0.png)
 
