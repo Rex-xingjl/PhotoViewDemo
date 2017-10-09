@@ -37,7 +37,7 @@
     
     RexPhotoAlbum * vc = [[RexPhotoAlbum alloc] init];
     vc.delegate = self;
-    vc.showVerticalFirst = 1;
+//    vc.showVerticalFirst = 1;
 //    vc.currentIndexPath = [NSIndexPath indexPathForItem:2 inSection:3];
     [self presentViewController:vc animated:YES completion:nil];
 }
