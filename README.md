@@ -52,12 +52,10 @@ And if find some issues, please give me a notice.
 
 ```
 
-###Preview gif
+###Previews
+
+![screenshot-0](screenshot-0.png)
+
+![screenshot-1](screenshot-1.png)
 
 ![preview](preview.gif "preview")
-
-![screenshot-0](screenshot-0.png "screenshot")
-
-![screenshot-1](screenshot-1.png "screenshot")
-
-
