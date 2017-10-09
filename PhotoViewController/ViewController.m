@@ -11,11 +11,8 @@
 
 @interface ViewController () <RexPhotoAlbumDelegate>
 
-//@property (nonatomic, strong) NSMutableArray * imageStrArray;
-//@property (nonatomic, strong) NSMutableArray * thumbImageStrArray;
-
 @property (nonatomic, strong) NSArray * titleArray;
-@property (nonatomic, strong) NSArray * thumbImageStrArray;
+@property (nonatomic, strong) NSArray * imageStrArray;
 @property (nonatomic, strong) NSArray * sectionTitleArray;
 
 @end
@@ -26,8 +23,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 
-//    self.imageStrArray = @[@"0", @"timg-0",@"1", @"timg-1", @"2",@"timg-2", @"3",@"timg-3", @"4",@"timg-4", @"5", @"timg-5", @"6",@"timg-6", @"7",@"timg-7"];
-    self.thumbImageStrArray = @[@[@"0", @"timg-0",@"1"],
+    self.imageStrArray = @[@[@"0", @"timg-0",@"1"],
                                 @[ @"timg-1"],
                                 @[@"2",@"timg-2", @"3",@"timg-3"],
                                 @[@"4"],
@@ -47,7 +43,7 @@
 }
 
 - (NSInteger)numberOfSectionsInAlbum:(RexPhotoAlbum *)album {
-        return self.thumbImageStrArray.count;
+        return self.imageStrArray.count;
 }
 
 - (NSString *)photoAlbum:(RexPhotoAlbum *)album titleForSection:(NSInteger)section {
@@ -59,15 +55,15 @@
 }
 
 - (NSInteger)photoAlbum:(RexPhotoAlbum *)album numberofItemsInSection:(NSInteger)section {
-    return [self.thumbImageStrArray[section] count];
+    return [self.imageStrArray[section] count];
 }
 
 - (NSString *)photoAlbum:(RexPhotoAlbum *)album thumbnailNameForIndex:(NSIndexPath *)indexPath {
-    return self.thumbImageStrArray[indexPath.section][indexPath.row];;
+    return self.imageStrArray[indexPath.section][indexPath.row];;
 }
 
 - (NSString *)photoAlbum:(RexPhotoAlbum *)album imageNameForIndex:(NSIndexPath *)indexPath {
-    return self.thumbImageStrArray[indexPath.section][indexPath.row];
+    return self.imageStrArray[indexPath.section][indexPath.row];
 }
 
 - (void)imageSavedToPhotosAlbum:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(id)contextInfo {
