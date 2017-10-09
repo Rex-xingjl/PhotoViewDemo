@@ -27,21 +27,14 @@
     // Do any additional setup after loading the view, typically from a nib.
 
 //    self.imageStrArray = @[@"0", @"timg-0",@"1", @"timg-1", @"2",@"timg-2", @"3",@"timg-3", @"4",@"timg-4", @"5", @"timg-5", @"6",@"timg-6", @"7",@"timg-7"];
-//    self.thumbImageStrArray = @[@[@"0", @"timg-0",@"1"],
-//                                @[ @"timg-1"],
-//                                @[@"2",@"timg-2", @"3",@"timg-3"],
-//                                @[@"4"],
-//                                @[@"timg-4", @"5", @"timg-5", @"6",@"timg-6"],
-//                                @[@"7",@"timg-7"]];
+    self.thumbImageStrArray = @[@[@"0", @"timg-0",@"1"],
+                                @[ @"timg-1"],
+                                @[@"2",@"timg-2", @"3",@"timg-3"],
+                                @[@"4"],
+                                @[@"timg-4", @"5", @"timg-5", @"6",@"timg-6"],
+                                @[@"7",@"timg-7"]];
     self.titleArray = @[@"户型图-1 56 m2 ",@"户型图-2 73m2 ",@"户型图-3 82m2 ",@"户型图-4 76m2 ",@"户型图-5 33m2 ",@"户型图-6 100m2 ",@"户型图-7 135m2 ",@"户型图-8 96m2 "];
     self.sectionTitleArray = @[@"56m2 ",@"73m2 ",@"82m2 ",@"76m2 ",@"33m2 ",@"100m2 ",@"135m2 ",@"96m2 "];
-//    self.imageStrArray
-//    
-//    for (int i <; <#condition#>; <#increment#>) {
-//        <#statements#>
-//    }
-//    RexPhotoModel *
-    
 }
 
 - (IBAction)previewBtnAction:(UIButton *)sender {
