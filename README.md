@@ -41,6 +41,7 @@ And if find some issues, please give me a notice.
     return self.sectionTitleArray[section];
 }
 ...
+
 - (NSString *)photoAlbum:(RexPhotoAlbum *)album imageNameForIndex:(NSIndexPath *)indexPath {
     return self.imageStrArray[indexPath.section][indexPath.row];
 }
